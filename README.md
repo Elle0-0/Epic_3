@@ -1,2 +1,2 @@
 # Epic_3
-research on C02 with nasa and google maps db
+research on C02 levels in the atmosphere by building ml models using nasa and google maps databases.
