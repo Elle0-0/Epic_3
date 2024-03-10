@@ -1,8 +1,4 @@
-# EPIC – Block 3
-
-## Performing Prescriptive Analysis for Societal Impact
-
----
+# EPIC – Block 3<br /><sup>Performing Prescriptive Analysis for Societal Impact</sup>
 
 ### Project Overview:
 >   The aim of this project is to leverage analytics techniques to extract valuable insights
