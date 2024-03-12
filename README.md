@@ -1,4 +1,4 @@
-# EPIC – Block 3<br /><sup>Performing Prescriptive Analysis for Societal Impact</sup>
+# EPIC – Block 3<br /><br /><sup>Performing Prescriptive Analysis for Societal Impact</sup>
 
 ### Project Overview:
 >   The aim of this project is to leverage analytics techniques to extract valuable insights
@@ -10,7 +10,9 @@
 >   decision-making processes by potentially optimizing one of the implemented models.
 >   Through rigorous analysis, model implementation, and comprehensive
 >   reporting/presentation, the project seeks to demonstrate the practical applications of
->   EPIC for societal impact. 
+>   EPIC for societal impact.
+
+<br />
 
 For our project, we are researching Global CO<sub>2</sub> levels in the atmosphere by building 
 Machine Learning models. Our datasets are sourced from both NASA and Google Maps.
