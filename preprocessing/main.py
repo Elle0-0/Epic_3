@@ -17,13 +17,13 @@ def main() -> None:
     df1: DataFrame = co2_totals.process()
     df2: DataFrame = asthma_prevalence.process()
 
-    print(f"Processing file: {FILE_NAME!r}...")
+    print(f"Creating file: {FILE_NAME!r}...")
 
     # Only counts rows with matching countries
     combined: DataFrame = pd.merge(df1, df2, on="Country", suffixes=("_co2_levels", "_asthma_cases"))
     combined.to_csv(PATH_OUT, index=False)
 
-    print(f"Successfully processed and saved: {FILE_NAME!r}")
+    print(f"Successfully created and saved: {FILE_NAME!r}")
 
 
 if __name__ == "__main__":
