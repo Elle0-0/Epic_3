@@ -14,18 +14,15 @@ def process() -> DataFrame:
 
     print(f"Processing file: {FILE_NAME!r}...")
 
-    # Columns required: "Country", "1990", ..., "2019"
-    col_names: list[str] = ["Country"]
-    col_names.extend(str(year) for year in range(1990, 2020))
+    df: DataFrame = pd.read_csv(PATH_IN)
 
-    df: DataFrame = pd.read_csv(PATH_IN, usecols=col_names)
+    # Remove irrelevant columns
+    df.drop(columns=["Substance", "EDGAR Country Code"], inplace=True)
 
-    # Remove unnecessary rows
+    # Remove unnecessary/problematic rows
     df.drop(df.tail(3).index, inplace=True)
 
-    # Save to output location
     df.to_csv(PATH_OUT, index=False)
-
     print(f"Successfully processed and saved: {FILE_NAME!r}\n")
 
     return df
