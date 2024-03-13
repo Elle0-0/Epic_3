@@ -33,8 +33,6 @@ def process() -> DataFrame:
     # Remove "F" from year column names
     df.rename(columns=rename_column, inplace=True)
 
-    countries: list = df["Country"].to_list()
-
     df.to_csv(PATH_OUT, index=False)
     print(f"Successfully processed and saved: {FILE_NAME!r}\n")
 
