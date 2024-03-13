@@ -7,7 +7,7 @@ from pandas import DataFrame
 
 FILE_NAME: str = "surface-temperatures.csv"
 PATH_IN: str = f"../datasets/raw/{FILE_NAME}"
-PATH_OUT: str = f"../datasets/processed/{FILE_NAME}"
+PATH_OUT: str = f"../datasets/clean/{FILE_NAME}"
 
 
 def rename_column(column_name: str) -> str:
@@ -23,7 +23,7 @@ def rename_column(column_name: str) -> str:
 
 def process() -> DataFrame:
 
-    print(f"Processing file: {FILE_NAME!r}...")
+    print(f"Cleaning file: {FILE_NAME!r}...")
 
     column_names: list[str] = ["Country"]
     column_names.extend(f"F{year}" for year in range(1970, 2022))
@@ -34,6 +34,6 @@ def process() -> DataFrame:
     df.rename(columns=rename_column, inplace=True)
 
     df.to_csv(PATH_OUT, index=False)
-    print(f"Successfully processed and saved: {FILE_NAME!r}\n")
+    print(f"Successfully cleaned and saved: {FILE_NAME!r}\n")
 
     return df

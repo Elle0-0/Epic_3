@@ -6,13 +6,13 @@ from pandas import DataFrame
 from modules import co2_totals, surface_temperatures
 
 FILE_NAME: str = "combined-data.csv"
-PATH_OUT: str = f"../datasets/processed/{FILE_NAME}"
+PATH_OUT: str = f"../datasets/clean/{FILE_NAME}"
 
 
 def main() -> None:
 
-    # Create processed directory if not exists
-    Path("../datasets/processed").mkdir(parents=True, exist_ok=True)
+    # Create clean directory if not exists
+    Path("../datasets/clean").mkdir(parents=True, exist_ok=True)
 
     df1: DataFrame = co2_totals.process()
     df2: DataFrame = surface_temperatures.process()
