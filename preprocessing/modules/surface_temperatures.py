@@ -18,6 +18,7 @@ def rename_column(column_name: str) -> str:
 
     :param column_name: Name of column.
     """
+
     return column_name[column_name.startswith("F"):]
 
 
