@@ -12,13 +12,13 @@ if (($major -lt 3) -or ($major -eq 3 -and $minor -lt 10)) {
 if (-not (Test-Path "./.venv")) {
     Write-Host "Creating virtual environment (./.venv)..." -ForegroundColor cyan
     python -m venv ./.venv
-    Write-Host "✔ Created virtual environment" -ForegroundColor green
+    Write-Host "Successfully created virtual environment" -ForegroundColor green
 }
 
 ./.venv/Scripts/activate
-Write-Host "✔ Activated virtual environment" -ForegroundColor green
+Write-Host "Successfully ativated virtual environment" -ForegroundColor green
 
 Write-Host "Installing requirements (./requirements.txt)...`n" -ForegroundColor cyan
 pip install -r "./requirements.txt"
 
-Write-Host "`n✔ Installed requirements" -ForegroundColor green
+Write-Host "`nSuccessfully installed all requirements" -ForegroundColor green
