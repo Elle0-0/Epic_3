@@ -23,7 +23,7 @@
 >  ```
 >  Linux (bash)
 >  ```
->  ~/projects (main) source ./setup.sh
+>  ~/projects (main) source ./setup/setup.sh
 >  ```
 
 After following these steps, you are welcome to run any Python files in our project.
