@@ -1,6 +1,6 @@
 # EPIC – Block 3<br /><br /><sup>Performing Prescriptive Analysis for Societal Impact</sup>
 
-### Project Overview
+## Project Overview
 >   The aim of this project is to leverage analytical techniques to extract valuable insights from our chosen datasets, 
 >   with a focus on addressing societal concerns. For our project, we are analysing CO<sub>2</sub> levels in the atmosphere and surface
 >   temperatures for a significant number of countries across the globe.<br /><br />
@@ -10,11 +10,11 @@
 
 <br />
 
-### Project Setup Guide
+## Project Setup Guide
 
-<br />
+<hr />
 
-#### Cloning the Repository
+### Cloning the Repository
 >  Navigate to a suitable directory on your machine and clone the repository using the commands below,
 >  then switch to this new directory, whose name is ``Epic_3`` (unless you specify otherwise).
 >  ```
@@ -24,7 +24,7 @@
 
 <br />
 
-#### Installing Project Dependencies
+### Installing Project Dependencies
 >  Use the appropriate setup script for your machine, stored in the ``setup`` folder. 
 >  These scripts are designed to handle the creation and activation of a Python virtual environment,
 >  and automatically install the project requirements.
