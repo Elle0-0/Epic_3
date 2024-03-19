@@ -8,20 +8,13 @@
 >   datasets, allowing us to develop and create predictive machine learning models that can provide prescriptive solutions to 
 >   the continuing global concern of rising temperatures, global warming, climate change, and CO<sub>2</sub> emissions.
 
-### Datasets
-
-[Global Warming Trends (1960-2022)](https://www.kaggle.com/datasets/jawadawan/global-warming-trends-1961-2022) 
-– This dataset provides annual surface temperature data for virtually every country from 1960 to 2022.
-
-[CO<sub>2</sub> (1970-2021)](https://edgar.jrc.ec.europa.eu/report_2022#data_download) 
-– This dataset presents CO<sub>2</sub> data for practically every country spanning 1970 to 2021.
-
-<br />
 <br />
 
-## Project Setup Guide
+### Project Setup Guide
 
-### Cloning the Repository
+<br />
+
+#### Cloning the Repository
 >  Navigate to a suitable directory on your machine and clone the repository using the commands below,
 >  then switch to this new directory, whose name is ``Epic_3`` (unless you specify otherwise).
 >  ```
@@ -29,7 +22,9 @@
 >  ~/projects (main) git clone https://github.com/Elle0-0/Epic_3.git
 >  ```
 
-### Installing Project Dependencies
+<br />
+
+#### Installing Project Dependencies
 >  Use the appropriate setup script for your machine, stored in the ``setup`` folder. 
 >  These scripts are designed to handle the creation and activation of a Python virtual environment,
 >  and automatically install the project requirements.
@@ -46,5 +41,7 @@
 >  ```
 >  ~/projects (main) source ./setup/setup.sh
 >  ```
+
+<br />
 
 After following these steps, you are welcome to run any Python files in our project.
