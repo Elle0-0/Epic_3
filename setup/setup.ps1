@@ -1,4 +1,3 @@
-
 [string]$py_version = python --version
 $matches = $py_version | Select-String -Pattern "\d+" -AllMatches | ForEach-Object { $_.Matches.Value }
 
