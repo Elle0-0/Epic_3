@@ -16,7 +16,7 @@ if (-not (Test-Path "./.venv")) {
     Write-Host "✔ Created virtual environment" -ForegroundColor green
 }
 
-.venv/Scripts/activate
+./.venv/Scripts/activate
 Write-Host "✔ Activated virtual environment" -ForegroundColor green
 
 Write-Host "Installing requirements (./requirements.txt)...`n" -ForegroundColor cyan
