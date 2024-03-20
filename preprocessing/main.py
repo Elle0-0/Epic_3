@@ -3,17 +3,22 @@ from pathlib import Path
 import pandas as pd
 from pandas import DataFrame
 
-from modules import co2_totals, surface_temperatures
-from modules.misc import get_similar_countries
+from modules import (
+    co2_totals,
+    surface_temperatures,
+    get_similar_countries,
+    CLEAN_PATH
+)
+
 
 FILE_NAME: str = "combined-data.csv"
-PATH_OUT: str = f"../datasets/clean/{FILE_NAME}"
+PATH_OUT: Path = CLEAN_PATH / FILE_NAME
 
 
 def main() -> None:
 
     # Create clean directory if not exists
-    Path("../datasets/clean").mkdir(parents=True, exist_ok=True)
+    CLEAN_PATH.mkdir(parents=True, exist_ok=True)
 
     df1: DataFrame = co2_totals.process()
     df2: DataFrame = surface_temperatures.process()

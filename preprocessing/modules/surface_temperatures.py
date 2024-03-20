@@ -1,13 +1,13 @@
-"""
-Do not run this file directly.
-"""
+from pathlib import Path
 
 import pandas as pd
 from pandas import DataFrame
 
+from . import RAW_PATH, CLEAN_PATH
+
 FILE_NAME: str = "surface-temperatures.csv"
-PATH_IN: str = f"../datasets/raw/{FILE_NAME}"
-PATH_OUT: str = f"../datasets/clean/{FILE_NAME}"
+PATH_IN: Path = RAW_PATH / FILE_NAME
+PATH_OUT: Path = CLEAN_PATH / FILE_NAME
 
 
 def rename_column(column_name: str) -> str:

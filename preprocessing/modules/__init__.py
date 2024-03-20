@@ -1,11 +1,14 @@
-from typing import Optional
-
 from difflib import SequenceMatcher
+from pathlib import Path
+
+DATASETS_PATH: Path = Path(__file__).parents[2].joinpath("datasets")
+RAW_PATH: Path = DATASETS_PATH / "raw"
+CLEAN_PATH: Path = DATASETS_PATH / "clean"
 
 SIMILARITY_THRESHOLD: float = 0.73
 
 
-def most_similar_country(country: str, countries: tuple[str]) -> Optional[str]:
+def most_similar_country(country: str, countries: tuple[str]) -> str | None:
     """
     Finds the most similar match given a country and a tuple of countries to match from.
 
