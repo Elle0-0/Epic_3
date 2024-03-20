@@ -27,7 +27,7 @@ def main() -> None:
     print(f"\nNormalizing following country names:\n{similar_countries}")
 
     # Normalize similar country names so they are the same
-    df1["Country"].replace(similar_countries, inplace=True)
+    df1.replace({"Country": similar_countries}, inplace=True)
 
     # Only counts rows with matching countries
     combined: DataFrame = pd.merge(df1, df2, on="Country", suffixes=("_co2_total", "_surface_temperature"))
