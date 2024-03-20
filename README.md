@@ -23,8 +23,8 @@ run any Python or Jupyter Notebook files.
 >  Navigate to a suitable directory on your machine and clone the repository using the commands below,
 >  then switch to this new directory, whose name is ``Epic_3`` (unless you specify otherwise).
 >  ```
->  ~ cd projects
->  ~/projects (main) git clone https://github.com/Elle0-0/Epic_3.git
+>  ~ > cd projects
+>  ~/projects (main) > git clone https://github.com/Elle0-0/Epic_3.git
 >  ```
 
 <br />
@@ -36,13 +36,13 @@ run any Python or Jupyter Notebook files.
 >
 >  Windows (cmd)
 >  ```
->  ~/projects (main) .\setup\setup.bat
+>  ~/projects (main) > .\setup\setup.bat
 >  ```
 >  Windows (Powershell)
 >  ```
->  ~/projects (main) ./setup/setup.ps1
+>  ~/projects (main) > ./setup/setup.ps1
 >  ```
 >  Linux (bash)
 >  ```
->  ~/projects (main) source ./setup/setup.sh
+>  ~/projects (main) > source ./setup/setup.sh
 >  ```
