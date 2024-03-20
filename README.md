@@ -57,7 +57,7 @@ run any Python or Jupyter Notebook files inside the ``src`` folder.
 Follow the relevant steps below to execute the Python or Jupyter Notebook files.
 If you have an Integrated Development Evironment (IDE), you may already have this functionality
 built in; in which case, you can ignore the steps below. These steps are intended for those
-operating from a terminal, such as Windows' `cmd`. 
+operating from a terminal, such as Windows' ``cmd``. 
 
 <br />
 
@@ -71,7 +71,7 @@ operating from a terminal, such as Windows' `cmd`.
 >  ~/projects/Epic_3/src (main) > python ./preprocessing/main.py
 >  ```
 > 
->  If the "python" command is not recognised try "python3" or "py" instead.
+>  If the "python" command is not recognised, try "python3" or "py" instead.
 >  If this issue persists, try troubleshooting the issue using the official [Python documentation](https://docs.python.org/3/using/cmdline.html).
 
 <br />
@@ -88,6 +88,8 @@ operating from a terminal, such as Windows' `cmd`.
 > 
 >  This should automatically open a new interactive notebook tab in your browser, where you
 >  can begin executing the code cells.
+
+<br />
 
 If you are having issues with navigation or specifying files for execution for either of the guides above,
 try switching the forward slashes with backslashes.
