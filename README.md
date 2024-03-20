@@ -1,4 +1,6 @@
-# EPIC 3 – Performing Prescriptive Analysis for Societal Impact
+# EPIC – Block 3 <br /><br /><sup>Performing Prescriptive Analysis for Societal Impact</sup>
+
+<br />
 
 ### Project Overview
 The aim of this project is to leverage analytical techniques to extract valuable insights from our chosen datasets, 
@@ -8,10 +10,14 @@ By applying a systematic Data Science Workflow, we aim to thoroughly explore and
 datasets, allowing us to develop and create predictive machine learning models that can provide prescriptive solutions to 
 the continuing global concern of rising temperatures, global warming, climate change, and CO<sub>2</sub> emissions.
 
+<br />
+
 ### Project Setup Guide
 
 Follow the steps below to setup the project. After the steps are complete, you will be able to
 run any Python or Jupyter Notebook files.
+
+<br />
 
 #### Step 1. Cloning the Repository
 >  Navigate to a suitable directory on your machine and clone the repository using the commands below,
@@ -20,6 +26,8 @@ run any Python or Jupyter Notebook files.
 >  ~ cd projects
 >  ~/projects (main) git clone https://github.com/Elle0-0/Epic_3.git
 >  ```
+
+<br />
 
 #### Step 2. Installing Project Dependencies
 >  Use the appropriate setup script for your machine, stored in the ``setup`` folder. 
