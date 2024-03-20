@@ -15,7 +15,7 @@ the continuing global concern of rising temperatures, global warming, climate ch
 ### Project Setup Guide
 
 Follow the steps below to setup the project. After the steps are complete, you will be able to
-run any Python or Jupyter Notebook files.
+run any Python or Jupyter Notebook files inside the ``src`` folder.
 
 <br />
 
