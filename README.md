@@ -3,6 +3,7 @@
 <br />
 
 ### Project Overview
+
 The aim of this project is to leverage analytical techniques to extract valuable insights from our chosen datasets, 
 with a focus on addressing societal concerns. For our project, we are analysing CO<sub>2</sub> levels in the atmosphere and surface
 temperatures for a significant number of countries across the globe.<br /><br />
@@ -16,6 +17,9 @@ the continuing global concern of rising temperatures, global warming, climate ch
 
 Follow the steps below to setup the project. After the steps are complete, you will be able to
 run any Python or Jupyter Notebook files inside the ``src`` folder.
+
+Before following these steps, ensure you have an up-to-date Python version installed. This project requires
+any version above 3.10, but it is recommended that you have the [latest version](https://www.python.org/downloads).
 
 <br />
 
