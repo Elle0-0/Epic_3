@@ -3,6 +3,7 @@
 <br />
 
 ### Project Overview
+
 The aim of this project is to leverage analytical techniques to extract valuable insights from our chosen datasets, 
 with a focus on addressing societal concerns. For our project, we are analysing CO<sub>2</sub> levels in the atmosphere and surface
 temperatures for a significant number of countries across the globe.<br /><br />
@@ -15,16 +16,21 @@ the continuing global concern of rising temperatures, global warming, climate ch
 ### Project Setup Guide
 
 Follow the steps below to setup the project. After the steps are complete, you will be able to
-run any Python or Jupyter Notebook files.
+run any Python or Jupyter Notebook files inside the ``src`` folder.
+
+Before following these steps, ensure you have an up-to-date Python version installed. This project requires
+any version above 3.10, but it is recommended that you have the [latest version](https://www.python.org/downloads).
 
 <br />
 
 #### Step 1. Cloning the Repository
->  Navigate to a suitable directory on your machine and clone the repository using the commands below,
->  then switch to this new directory, whose name is ``Epic_3`` (unless you specify otherwise).
+>  Navigate to a suitable directory on your machine and clone the repository as shown below, then 
+>  switch to this new directory, whose name is ``Epic_3`` (unless you specify otherwise).
 >  ```
 >  ~ > cd projects
->  ~/projects (main) > git clone https://github.com/Elle0-0/Epic_3.git
+>  ~/projects > git clone https://github.com/Elle0-0/Epic_3.git
+>  ~/projects > cd ./Epic_3
+>  ~/projects/Epic_3 (main) > 
 >  ```
 
 <br />
@@ -36,13 +42,60 @@ run any Python or Jupyter Notebook files.
 >
 >  Windows (cmd)
 >  ```
->  ~/projects (main) > .\setup\setup.bat
+>  ~/projects/Epic_3 (main) > .\setup\setup.bat
 >  ```
 >  Windows (Powershell)
 >  ```
->  ~/projects (main) > ./setup/setup.ps1
+>  ~/projects/Epic_3 (main) > ./setup/setup.ps1
 >  ```
 >  Linux (bash)
 >  ```
->  ~/projects (main) > source ./setup/setup.sh
+>  ~/projects/Epic_3 (main) > source ./setup/setup.sh
 >  ```
+
+<br />
+
+
+### Project Execution Guide (Terminal)
+
+Follow the relevant steps below to execute the Python or Jupyter Notebook files.
+If you have an Integrated Development Evironment (IDE), you may already have this functionality
+built in; in which case, you can ignore the steps below. These steps are intended for those
+operating from a terminal, such as Windows' ``cmd``. 
+
+<br />
+
+#### Executing Python Files
+>  If you want to run ``.py`` files, like ``src/preprocessing/main.py``, for example,
+>  navigate to the ``src`` directory, and type the command as shown below.
+> 
+>  Windows (cmd / Powershell) & Linux (bash)
+>  ```
+>  ~/projects/Epic_3 (main) > cd src
+>  ~/projects/Epic_3/src (main) > python ./preprocessing/main.py
+>  ```
+> 
+>  If the "python" command is not recognised, try "python3" or "py" instead.
+>  If this issue persists, try troubleshooting the issue using the official [Python documentation](https://docs.python.org/3/using/cmdline.html).
+
+<br />
+
+#### Executing Jupyter Notebook Files
+>  If you want to run ``.ipynb`` files, like ``src/models/linear_regression.ipynb``, for example,
+>  navigate to the ``src`` directory, and type the command as shown below.
+> 
+>  Windows (cmd / Powershell) & Linux (bash)
+>  ```
+>  ~/projects/Epic_3 (main) > cd src
+>  ~/projects/Epic_3/src (main) > jupyter notebook ./models/linear_regression.ipynb
+>  ```
+> 
+>  This should automatically open a new interactive notebook tab in your browser, where you
+>  can begin executing the code cells.
+
+<br />
+
+If you are having issues with navigation or specifying files for execution for either of the guides above,
+try switching the forward slashes with backslashes.
+
+<br />

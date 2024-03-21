@@ -5,7 +5,7 @@ $matches = $py_version | Select-String -Pattern "\d+" -AllMatches | ForEach-Obje
 [int]$minor = $matches[1]
 
 if (($major -lt 3) -or ($major -eq 3 -and $minor -lt 10)) {
-    Write-Host "✘ Please upgrade your Python version to 3.10 or later" -ForegroundColor red
+    Write-Host "Please upgrade your Python version to 3.10 or later" -ForegroundColor red
     Break  # Terminate
 }
 
